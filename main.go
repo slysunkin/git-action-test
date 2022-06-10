@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "os"
+    "strings"
+)
 
 func main() {
     fmt.Println("Hello, git-action-test!")

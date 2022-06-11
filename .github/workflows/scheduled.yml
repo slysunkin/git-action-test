@@ -2,7 +2,7 @@ name: Go scheduled test
 
 on:
   schedule:
-    - cron: '0 * * * *' # run every hour
+    - cron: '0 4 * * *' # run at 4 AM UTC, i.e. 12 AM EST
 
 jobs:
 

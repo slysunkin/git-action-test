@@ -37,6 +37,6 @@ jobs:
         # email body as text
         body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
         # comma-separated string, send email to
-        to: slysunkin@mirantis.com # TODO: need to define the list of recipients
+        to: mmt@noreply.github.com
         # from email name
         from: MMT build notification
